@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cicd-platform
+  labels:
+    app: cicd-platform
+    managed-by: argocd
